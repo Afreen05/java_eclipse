@@ -5,19 +5,17 @@ import com.xworkz.examples.Bags;
 public class BagsRunner {
 
 	public static void main(String[] args) {
-	  Bags bags=new Bags();
-	
-		String[] brands= {"zara","gucci","bata","LV"};
-		int[] quantity= {1,2,3,4,5};
-		String[] colors= {"brown","blue","pink"};
-		char[] sizes= {'s','m','l'};
-		String[] available= {"amazon","flipkart","myntra","ajio"};
 		
-		System.out.println(brands);
-		System.out.println(quantity);
-		System.out.println(colors);
-		System.out.println(sizes);
- 	    System.out.println(available);
+		
+		String[] brands= {"zara","lv","gucci"};
+		int[] quantity= {1,2,3};
+		String[] colors= {"red","black"};
+		char[] sizes= {'s','m','l'};
+		String[] available= {"flipkart","amazon"};
+		
+
+		Bags bags=new Bags("handbag",4500,3.5f,"leather",true,brands,quantity,colors,sizes,available);
+
  	    
  	    bags.display();
 		

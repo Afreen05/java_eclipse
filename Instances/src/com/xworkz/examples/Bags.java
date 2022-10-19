@@ -2,11 +2,11 @@ package com.xworkz.examples;
 
 public class Bags {
 	
-	public String type="handBag";
-	public double price=45000;
-	public float weight=3.5f;
-	public String material="leather";
-	public boolean quality=true;
+	public String type;
+	public double price;
+	public float weight;
+	public String material;
+	public boolean quality;
 	
 	public String[] brands;
 	public int[] quantity;
@@ -27,7 +27,8 @@ public class Bags {
        this.available=available;
        
 	}
-       public void display() {
+      
+	public void display() {
     	   
     	   System.out.println(this.brands);
     	   for (int i = 0; i < brands.length; i++) {
