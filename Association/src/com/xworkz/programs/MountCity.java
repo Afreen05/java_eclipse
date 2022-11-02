@@ -2,7 +2,7 @@ package com.xworkz.programs;
 
 import com.xworkz.constants.MountainNames;
 
-public class City {
+public class MountCity {
      public String countryName="india";
      public String stateName;
      public double area;
@@ -10,7 +10,7 @@ public class City {
      public Mountain mount=new Mountain();
      
      
-	public City(String stateName, double area, int totalNoOfMountains) {
+	public MountCity(String stateName, double area, int totalNoOfMountains) {
 		this.stateName = stateName;
 		this.area = area;
 		this.totalNoOfMountains = totalNoOfMountains;
